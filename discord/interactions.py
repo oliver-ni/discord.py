@@ -79,6 +79,8 @@ class Interaction:
         The interaction's ID.
     type: :class:`InteractionType`
         The interaction type.
+    data: Optional[:class:`InteractionData`]
+        The command data payload for slash commands.
     guild_id: Optional[:class:`int`]
         The guild ID the interaction was sent from.
     channel_id: Optional[:class:`int`]
